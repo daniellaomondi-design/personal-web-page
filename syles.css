@@ -6,16 +6,8 @@
 
 body{
 font-family: arial, sans-serif;
-background-color: rgb(8, 244, 244);
-padding:30px;
-}
+background-color: palegoldenrod
 
-.container{
-    max-width:700px;
-    margin:auto;
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
 }
 
 h1{
@@ -24,16 +16,32 @@ h1{
 }
 
 
-input{
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
+p {
+    color:red;
+    font-weight: 100;
+    font-size: 20px;
 }
 
+h2 {
+    color:brown;
+    font-size: 20px;
 
+}
 
-button{
-    padding:12px;
-    margin-top: 10px;
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    border: 3px solid black;
+    object-fit: cover;
+}
+
+button {
+    background-color: rgb(84, 66, 150);
+    color: white;
+    border: none;
     cursor: pointer;
+    font-size: 16px;
+    padding: 12px;
+
 }
